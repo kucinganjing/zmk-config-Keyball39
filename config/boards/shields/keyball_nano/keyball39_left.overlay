@@ -16,3 +16,10 @@
 		, <&pro_micro 9 GPIO_ACTIVE_HIGH>
 		;
 };
+
+/* Fix for nice_view_gem on ZMK main branch */
+&pro_micro_spi {
+    status = "okay";
+};
+
+nice_view_spi: &pro_micro_spi {};
