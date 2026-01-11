@@ -55,6 +55,7 @@
             #binding-cells = <0>;
             bindings = <&kp Q>, <&kp TAB>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_LALT|MOD_RALT)>;
         };
 
         // "Smart R": Sends F4 if Alt is held (Resulting in Alt+F4), otherwise sends R
@@ -64,6 +65,7 @@
             #binding-cells = <0>;
             bindings = <&kp R>, <&kp F4>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            keep-mods = <(MOD_LALT|MOD_RALT)>;
         };
     };
 
