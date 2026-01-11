@@ -1,0 +1,13 @@
+/* This file maps the new "nice_nano" board name to the pins the shield expects */
+
+&pro_micro_spi {
+    status = "okay";
+};
+
+/* Create the label 'nice_view_spi' that the shield is looking for */
+nice_view_spi: &pro_micro_spi {};
+
+/* Define the Chip Select pin (standard for Nice!Nano) */
+&nice_view_spi {
+    cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+};
