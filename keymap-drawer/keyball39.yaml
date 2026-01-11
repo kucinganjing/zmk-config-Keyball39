@@ -1,10 +1,10 @@
 layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
-  - Q
+  - {t: Q, s: '$$mdi:keyboard-tab$$'}
   - W
   - E
-  - R
+  - {t: R, s: F4}
   - T
   - Y
   - U
