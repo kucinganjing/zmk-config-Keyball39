@@ -14,11 +14,11 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: keyball39_left nice_view  
+    shield: keyball39_left nice_view_gem  
     snippet: studio-rpc-usb-uart      # <--- Keep this for ZMK Studio support
 
   - board: nice_nano_v2
-    shield: keyball39_right nice_view
+    shield: keyball39_right nice_view_gem
     # No snippet here (Right side doesn't need Studio)
 
   - board: nice_nano_v2
