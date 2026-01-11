@@ -47,6 +47,24 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        // "Smart Q": Sends Tab if Alt is held, otherwise sends Q
+        q_tab: q_alt_tab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "Q_TAB";
+            #binding-cells = <0>;
+            bindings = <&kp Q>, <&kp TAB>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
+
+        // "Smart R": Sends F4 if Alt is held (Resulting in Alt+F4), otherwise sends R
+        r_f4: r_alt_f4 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R_F4";
+            #binding-cells = <0>;
+            bindings = <&kp R>, <&kp F4>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
     };
 
     macros {
