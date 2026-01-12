@@ -14,12 +14,11 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: keyball39_left nice_view_adapter nice_view
-    snippet: studio-rpc-usb-uart  # <--- KEEP this (Central needs it to talk to Studio)
+    shield: keyball39_left nice_view
 
   - board: nice_nano_v2
-    shield: keyball39_right nice_view_adapter nice_view
-    # REMOVE the snippet line here! The Right side is just a peripheral.
+    shield: keyball39_right nice_view
+    snippet: studio-rpc-usb-uart 
     
   - board: nice_nano_v2
     shield: settings_reset
