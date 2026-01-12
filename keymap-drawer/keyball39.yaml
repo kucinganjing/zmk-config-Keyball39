@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - '&lt 1 LSHFT Z'
   - X
   - C
   - V
@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
