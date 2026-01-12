@@ -120,3 +120,13 @@
         prechargep = <0x22>;
     };
 };
+
+/* * FIX FOR NICE!VIEW
+ * Enables the standard SPI port and gives it the name 'nice_view_spi'
+ * so the shield can find it.
+ */
+&pro_micro_spi {
+    status = "okay";
+};
+
+nice_view_spi: &pro_micro_spi {};
