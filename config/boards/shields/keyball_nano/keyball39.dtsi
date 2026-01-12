@@ -85,7 +85,6 @@
 
 &i2c0 {
     status = "okay";
-    compatible = "nordic,nrf-twi";
 
     oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
