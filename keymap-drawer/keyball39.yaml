@@ -34,7 +34,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - '&lt 1'
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - {t: '$$mdi:keyboard-esc$$', h: SCROLL}
   - $$mdi:keyboard-space$$
