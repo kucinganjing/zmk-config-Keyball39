@@ -83,14 +83,14 @@
         /* Example: Pressing A S D F together enters Layer 0 (default) */
         combo_default {
             timeout-ms = <50>;
-            key-positions = <5 6 7 8>; // <--- REPLACE these with your actual key numbers
+            key-positions = <10 11 12 13>; // <--- REPLACE these with your actual key numbers
             bindings = <&to 0>;
         };
 
         /* Example: Pressing Z X C V */
         combo_gamemode {
             timeout-ms = <50>;
-            key-positions = <10 11 12 13>;
+            key-positions = <20 21 22 23>;
             bindings = <&to 8>;
         };
     };
