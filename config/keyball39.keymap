@@ -5,6 +5,8 @@
 #define MOUSE   4
 #define SCROLL  5
 #define SNIPE   6
+#define DOTA    7
+#define GAME    8
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -67,6 +69,35 @@
             mods = <(MOD_LALT|MOD_RALT|MOD_LCTL|MOD_RCTL)>;
             keep-mods = <(MOD_LALT|MOD_RALT|MOD_LCTL|MOD_RCTL)>;
         };
+
+        combos {
+        compatible = "zmk,combos";
+
+        /* Example: Pressing Q W E R together enters Layer 4 (dota) */
+        combo_dotamode {
+            timeout-ms = <50>;
+            key-positions = <0 1 2 3>; // <--- REPLACE these with your actual key numbers
+            bindings = <&to 7>;
+        };
+
+        /* Example: Pressing A S D F together enters Layer 0 (default) */
+        combo_default {
+            timeout-ms = <50>;
+            key-positions = <5 6 7 8>; // <--- REPLACE these with your actual key numbers
+            bindings = <&to 0>;
+        };
+
+        /* Example: Pressing Z X C V */
+        combo_gamemode {
+            timeout-ms = <50>;
+            key-positions = <10 11 12 13>;
+            bindings = <&to 8>;
+        };
+    };
+
+    keymap {
+        /* ... your normal layers ... */
+    };
     };
 
     macros {
@@ -143,6 +174,26 @@
 
         snipe_layer {
             label = "SNIPE";
+            bindings = <
+&trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        dota_layer {
+            label = "DOTA";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        game_layer {
+            label = "GAME";
             bindings = <
 &trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
