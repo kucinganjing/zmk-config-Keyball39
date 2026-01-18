@@ -298,7 +298,7 @@ layers:
   - H
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Kk
+  - K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: F3, h: '$$mdi:apple-keyboard-shift$$'}
