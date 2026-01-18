@@ -318,7 +318,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - F1
   - F3
-  - '&KP F4'
+  - F4
   - {t: '$$mdi:transfer$$', type: trans}
   GAME:
   - {t: '$$mdi:transfer$$', type: trans}
