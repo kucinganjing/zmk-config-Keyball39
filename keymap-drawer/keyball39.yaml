@@ -313,8 +313,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
   - F2
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-tab$$
   - F1
   - F3
