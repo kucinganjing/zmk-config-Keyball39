@@ -305,7 +305,7 @@ layers:
   - Z
   - X
   - C
-  - $$mdi:keyboard-esc$$
+  - V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
