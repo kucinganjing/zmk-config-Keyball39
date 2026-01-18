@@ -181,7 +181,7 @@
             label = "DOTA";
             bindings = <
 &kp Q  &kp W  &kp E  &kp R  &kp T                  &kp Y  &kp U  &trans  &kp O  &kp F9
-&kp A  &kp S  &kp D  &kp GRAVE  &kp H                       &trans  &trans  &kp Kk  &trans  &trans
+&kp A  &kp S  &kp D  &kp GRAVE  &kp H                       &trans  &trans  &kp K  &trans  &trans
 &mt LSHFT F3  &kp Z  &kp X  &kp C  &kp ESCAPE                       &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &kp SPACE  &kp F2  &kp LALT  &kp TAB &kp F1             &kp F3  &KP F4                          &trans
             >;
