@@ -94,7 +94,7 @@
             bindings = <&to 8>;
         };
     };
-
+    };
     macros {
         Hiragana: Hiragana {
             compatible = "zmk,behavior-macro";
