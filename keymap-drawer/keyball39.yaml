@@ -22,7 +22,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
-  - X
+  - {t: X, h: '$$mdi:apple-keyboard-shift$$'}
   - C
   - V
   - B
