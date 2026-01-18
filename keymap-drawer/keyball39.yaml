@@ -313,13 +313,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
-  - F2
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
   - F1
   - F3
   - F4
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   GAME:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
